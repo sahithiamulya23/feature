@@ -1,0 +1,39 @@
+
+<html>
+    <head>
+        <title>
+           Registration Form
+        </title>
+    </head>
+    <body>
+        <center>
+            <h1>Coustmer Registration</h1>
+            <input type="text" placeholder="User name" required maxlength="20" minlength="15"><br/><br/>
+            <input type="password" placeholder="Password" required maxlength="12" minlength="8"/><br/><br/>
+            <input type="email" placeholder="email" required/><br/>
+            <br><label>Gender
+            </label>
+            <input type="radio" name="Gender">Male
+            <input type="radio" name="gender">Female
+            <input type="radio" name="gender">Others<br/><br>
+            <label>Age(Years):</label>
+            <input type="Number" placeholder="age"><br><br/>
+            <label>Address: </label>
+            <textarea rows="4" cols="20"></textarea>
+            <br/>
+            <h2>Company</h2>
+            <label>Company Website:</label>
+            <input type="Url" name="url"/><br><br>
+            <label> Choose Country:</label>
+            <select name="India" id="ind">
+            <option value="India">INDIA</option>
+            <option value="Usa">USA</option>
+            <option value="Pak"> PAk</option>
+            </select><br><br>  
+            <label>Date of Journey</label>
+            <input type="Date" id="doj" name="doj"/> <br><br> 
+            <input type="submit" value="Submit" autofocus/><br><br>
+            <input type="reset" value="reset"/>
+        </center>
+    </body>
+    </html>
