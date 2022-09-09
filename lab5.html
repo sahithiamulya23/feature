@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p>Welcome to my Domain</p>
+        <button onclick="sample()">please Click it</button>
+        <p id="demo"></p>
+        <script>
+            /*function sample()
+            
+            
+
+                  var s = "siva";
+                  var s1 = "raman";
+                if(s==s1)
+                {
+                    alert('two values are equal');
+                }
+                else{
+                    alert('two values are not equal');
+                }
+            }*/
+            function ReverseString(str)
+            {
+                if(!str||str.length<2 ||
+                    typeof str!=='string'){
+                        return 'Not Valid';
+                    }
+                    const revArray = [];
+                    const length = str.length-1;
+                    for(let i = length;i>=0;i--){
+                        revArray.push(str[i]);
+
+                    }
+                    return revArray.join('');
+                            
+            }
+            document.write(ReverseString("Think IT Think VVIT"))
+        </script>
+    </body>
+</html>
